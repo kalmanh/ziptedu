@@ -9,11 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kalman Hazins"]
   spec.email         = ["kalman.hazins@ghs.com"]
 
-  spec.summary       = %q{ Zip code to city, state translator. }
-  spec.description   = %q{ Functions for looking up zipcode, city, state, latitude
-                           and longitude using a zipcode, city + state.
-                           You can also get random sets of this data.}
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{ Zip code to city, state translator. (Ruby) }
+  spec.description   = %q{ Functions for looking up zipcode, city, state, latitude and longitude using a zipcode,
+                           city + state, or latitude + longitude. You can also get random sets of this data.}
+  spec.homepage      = "https://github.com/kalmanh/ziptedu"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
