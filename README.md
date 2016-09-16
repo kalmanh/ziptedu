@@ -52,7 +52,7 @@ All lookups will return nil (if lookup was unsuccessful) or an instance of `Zipt
 * latitude
 * longitude
 
-These attributes may be empty if not applicable to the specific location returned. Each lookup has a synchronous and asynchronous function signature.
+These attributes may be empty if not applicable to the specific location returned.
 
 ### .zipcode(zipcode)
 Lookup data by 5 digit zipcode (the argument can be either an integer or a string)
